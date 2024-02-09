@@ -1,9 +1,15 @@
 .container{
     display: grid;
-    grid-column: span;
+    color: white;
+    border: 3px solid black;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.525);
 }
 .container div{
-    background-color: white;
+    background-color: red;
+    border: 3px solid black;
+    margin: auto;
     padding: 20px;
     font-size: x-large;
 }
